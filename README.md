@@ -118,11 +118,12 @@ for i in iterable
 
 ## Functions
 
-### Terms
+### Module
 
-#### Module
-  - Built in library of functionaly that needs to be imported to be used
-  `import random` <-- almost too easy, right?
+External dependency, collection of Python code. Think `node_modules/`.
+
+- Standard library is a collection of modules built into the language. They need to be imported to be used 
+  - `import random` <-- almost too easy, right?
  
 Modules are accessed with dot notation, so to call a function on `random`, you'd write `random.randint(args)`
 
@@ -140,4 +141,7 @@ You can also import several things, comma separated.
 import one, two, three, four
 ```
 
+#### pip
+
+The `npm` or `yarn` of Python. Installs 3rd party modules
 
